@@ -5,9 +5,6 @@ import pytesseract
 import tempfile
 import os
 
-pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
-
-
 app = FastAPI()
 
 # Allow requests from any origin
